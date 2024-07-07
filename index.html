@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yankiv</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar">
+            <div class="navbar-left">
+                <div><a onclick="scrollToDiv('main_page')" class="navbar-item-href" id="navbar-item-href-1">YN</a></div>
+            </div>
+            <div class="navbar-rigth">
+                <div ><a onclick="scrollToDiv('about_me')" class="navbar-item-href" id="navbar-item-href-2">About_me</a></div>
+                <div><a onclick="scrollToDiv('hobbies')" class="navbar-item-href" id="navbar-item-href-3">Hobbies</a></div>
+                <div><a onclick="scrollToDiv('education')" class="navbar-item-href" id="navbar-item-href-4">Education</a></div>
+                <div><a onclick="scrollToDiv('experience')" class="navbar-item-href" id="navbar-item-href-5">Experience</a></div>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="scroll-container" id="scroll_container">
+                <div class="scroll-item" id="main_page">
+                    <div class="scroll-item1-content">
+                        <h1 class="item1-title" id="item1-title"></h1>
+                        <div class="item1-background">
+                            <div class="item1-background-item">Fullstack</div>
+                            <div class="item1-background-item">Developer</div>
+                        </div>
+                    </div> 
+                </div>
+                <div class="scroll-item" id="about_me">
+                    <div class="scroll-item2-content">
+                        <div class="about-block">
+                            <div class="about-text">
+                                <h1 class="item2-title">About_me</h1>
+                                <p class="item2-text">Now I am 22 years old, I work as a system administrator and study at the university. Up to this point, I was very
+                                    much
+                                    atomized by different hobbies and now I realize that I need to take something seriously and become a professional in
+                                    it.</p>
+                            </div>                            
+                            <img class="about-image" src="img/photo_2023-12-28_12-06-36 copy 6.png" alt="">
+                        </div>
+                        <div class="adout-element"></div>
+                    </div>
+                </div>
+                <div class="scroll-item" id="hobbies">
+                    <div class="scroll-item3-content">
+                        <h1 class="item3-title">Hobbies</h1>
+                        <div class="hobbies-block">
+                            <div class="hobbies-item">
+                                <div class="hobbie-header">
+                                    <h2 class="hobbie-name">Games</h2>
+                                    <h2 class="hobbie-number">01</h2>
+                                </div>
+                                <p class="hobbie-description">From an early age, I spent an awful lot of time playing games. I always liked the competitive component of online games.</p>
+                            </div>
+                            <div class="hobbies-item">
+                                <div class="hobbie-header">
+                                    <h2 class="hobbie-name">Anime</h2>
+                                    <h2 class="hobbie-number">02</h2>
+                                </div>
+                                <p class="hobbie-description">Since middle school, I've been fascinated with Japanese animation and have been very much into the culture ever since.</p>
+                            </div>
+                            <div class="hobbies-item">
+                                <div class="hobbie-header">
+                                    <h2 class="hobbie-name">Sport</h2>
+                                    <h2 class="hobbie-number">03</h2>
+                                </div>
+                                <p class="hobbie-description">I went to the gym for the first time when I was 18, and it has been my mental unloading point ever since.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-item" id="education">
+                    <div class="scroll-item4-content">
+                        <h1 class="item4-title">Education</h1>
+                        <div class="education-block">
+                            <div class="education-item">
+                                <h3 class="education-date">September 2017</h3>
+                                <div class="line"></div>
+                                <div class="education-item-information">
+                                    <h3>Kyiv College of Communication<br>121 - software engineering</h3>
+                                </div>
+                                <div class="line"></div>
+                                <h3 class="education-date">June 2021</h3>
+                            </div>
+                            <div class="education-item">
+                                <h3 class="education-date">September 2021</h3>
+                                <div class="line"></div>
+                                <div class="education-item-information">
+                                    <h3>KNU of Taras Shevchenko<br>121 - software engineering</h3>
+                                </div>
+                                <div class="line"></div>
+                                <h3 class="education-date">nowadays</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-item" id="experience">
+                    <div class="scroll-item5-content">
+                        <h1 class="item5-title">Experience</h1>
+                        <div class="experience-block">
+                            <h2 class="experience-name">System administrator <span style="color:#2A2356">Avangard LLC</span></h3>
+                            <p class="experience-dates">October 2019 - up to now <span style="color:#2A2356">|</span> Ukraine</p>
+                            <ul class="experience-duties-list">
+                                <li class="experience-duties-item">Repair of the equipment used;</li>
+                                <li class="experience-duties-item">Ensuring smooth operation of all PCs and troubleshooting problems;</li>
+                                <li class="experience-duties-item">Computer network organization;</li>
+                                <li class="experience-duties-item">Initial setup and testing of terminals manufactured by the company.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-dots">
+                <div class="dot" id="dot-1"></div>
+                <div class="dot" id="dot-2"></div>
+                <div class="dot" id="dot-3"></div>
+                <div class="dot" id="dot-4"></div>
+                <div class="dot" id="dot-5"></div>
+            </div>
+        </div>     
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
